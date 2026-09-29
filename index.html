@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>تعمیرات لوازم خانگی محسن | تعمیر لباسشویی و جاروبرقی در دورود</title>
+
+<meta name="description" content="تعمیرات تخصصی لوازم خانگی در دورود لرستان؛ تعمیر لباسشویی، جاروبرقی، اتو، بخاری، برد و قطعات با امکان خدمات در منزل.">
+
+<meta name="theme-color" content="#0f172a">
+
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Tahoma, Arial, sans-serif;
+  background: #f4f7fb;
+  color: #1f2937;
+  line-height: 1.9;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 22px 15px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.header-text {
+  margin: 6px 0 14px;
+  color: #cbd5e1;
+}
+
+.phone {
+  display: inline-block;
+  background: #16a34a;
+  color: white;
+  padding: 11px 22px;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.hero {
+  background: linear-gradient(135deg, #1d4ed8, #0f172a);
+  color: white;
+  text-align: center;
+  padding: 65px 20px;
+}
+
+.hero h2 {
+  margin: 0 0 15px;
+  font-size: 34px;
+}
+
+.hero p {
+  max-width: 800px;
+  margin: auto;
+  font-size: 18px;
+  color: #e2e8f0;
+}
+
+.buttons {
+  margin-top: 25px;
+}
+
+.buttons a {
+  display: inline-block;
+  margin: 6px;
+  padding: 13px 24px;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+}
+
+.call {
+  background: #16a34a;
+}
+
+.whatsapp {
+  background: #22c55e;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 45px 20px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section-title h2 {
+  margin-bottom: 8px;
+  color: #0f172a;
+  font-size: 28px;
+}
+
+.section-title p {
+  color: #64748b;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 6px 22px rgba(15,23,42,0.08);
+  transition: transform .2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card h3 {
+  color: #1d4ed8;
+  margin-top: 0;
+}
+
+.card p {
+  color: #475569;
+}
+
+.lg-intro {
+  background: #eaf2ff;
+}
+
+.lg-box {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 6px 22px rgba(15,23,42,0.08);
+  border-top: 5px solid #1d4ed8;
+}
+
+.lg-box h3 {
+  color: #1d4ed8;
+  font-size: 24px;
+}
+
+.badge {
+  display: inline-block;
+  background: #eff6ff;
+  color: #1d4ed8;
+  padding: 8px 14px;
+  border-radius: 30px;
+  margin: 5px;
+  font-weight: bold;
+}
+
+.brands {
+  background: #eef2f7;
+}
+
+.contact {
+  background: #111827;
+  color: white;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 28px;
+}
+
+.contact p {
+  color: #d1d5db;
+}
+
+.contact a {
+  color: #4ade80;
+  font-weight: bold;
+}
+
+footer {
+  background: #020617;
+  color: #94a3b8;
+  text-align: center;
+  padding: 20px;
+}
+
+.fixed-buttons {
+  position: fixed;
+  bottom: 18px;
+  right: 18px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.fixed-buttons a {
+  color: white;
+  padding: 11px 17px;
+  border-radius: 50px;
+  font-weight: bold;
+  box-shadow: 0 5px 15px rgba(0,0,0,.25);
+}
+
+.fixed-call {
+  background: #16a34a;
+}
+
+.fixed-whatsapp {
+  background: #22c55e;
+}
+
+@media (max-width: 600px) {
+
+  header h1 {
+    font-size: 23px;
+  }
+
+  .hero {
+    padding: 48px 18px;
+  }
+
+  .hero h2 {
+    font-size: 25px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .container {
+    padding: 35px 15px;
+  }
+
+  .section-title h2 {
+    font-size: 24px;
+  }
+
+  .card {
+    padding: 22px 18px;
+  }
+
+  .fixed-buttons {
+    right: 12px;
+    bottom: 12px;
+  }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h1>🔧 تعمیرات لوازم خانگی محسن</h1>
+
+<p class="header-text">
+تعمیر تخصصی لوازم خانگی در دورود و اطراف
+</p>
+
+<a class="phone" href="tel:09165453500">
+📞 0916 545 3500
+</a>
+
+</header>
+
+
+<section class="hero">
+
+<h2>
+تعمیرات تخصصی لوازم خانگی در دورود
+</h2>
+
+<p>
+تعمیر تخصصی انواع لوازم خانگی با عیب‌یابی دقیق،
+امکان خدمات در منزل و هماهنگی سریع با مشتری.
+</p>
+
+<div class="buttons">
+
+<a class="call" href="tel:09165453500">
+📞 تماس فوری
+</a>
+
+<a class="whatsapp" href="https://wa.me/989165453500">
+💬 پیام در واتساپ
+</a>
+
+</div>
+
+</section>
+
+
+<section class="lg-intro">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>
+🔧 تعمیرات تخصصی لباسشویی LG
+</h2>
+
+<p>
+عیب‌یابی و تعمیر انواع لباسشویی LG
+</p>
+
+</div>
+
+<div class="lg-box">
+
+<h3>
+تعمیر لباسشویی LG از صفر تا صد
+</h3>
+
+<p>
+ارائه خدمات تخصصی برای عیب‌یابی و تعمیر
+مشکلات مختلف لباسشویی LG.
+</p>
+
+<span class="badge">
+۵ سرویس‌کار همزمان
+</span>
+
+<span class="badge">
+خدمات در دورود
+</span>
+
+<span class="badge">
+خدمات در منزل
+</span>
+
+<p>
+تمامی لوازم اصلی شرکت
+<strong>LG</strong>
+موجود می‌باشد.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section>
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>
+🛠️ خدمات تعمیرات
+</h2>
+
+<p>
+تعمیر تخصصی انواع لوازم خانگی
+</p>
+
+</div>
+
+
+<div class="services">
+
+<div class="card">
+
+<h3>
+🧺 لباسشویی اتوماتیک
+</h3>
+
+<p>
+عیب‌یابی و تعمیر مشکلات آبگیری،
+تخلیه، نشتی، موتور، برق و برد.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+🧺 لباسشویی دوقلو
+</h3>
+
+<p>
+تعمیر موتور، تایمر، پمپ،
+آبگیری و مشکلات شست‌وشو.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+🌀 جاروبرقی
+</h3>
+
+<p>
+تعمیر موتور، سیم‌جمع‌کن، مکش،
+صدا و مشکلات برقی.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+🔥 بخاری
+</h3>
+
+<p>
+عیب‌یابی بخاری برقی، المنت،
+ترموستات و مشکلات گرمایشی.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+👔 اتو
+</h3>
+
+<p>
+تعمیر مشکل گرم نشدن، ترموستات،
+سیم برق و سیستم گرمایشی.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+🔧 برد و قطعات
+</h3>
+
+<p>
+بررسی، تعمیر و تعویض قطعات
+و بردهای معیوب لوازم خانگی.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section>
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>
+⭐ خدمات تعمیرات محسن
+</h2>
+
+<p>
+تمرکز ما روی عیب‌یابی صحیح و ارائه راهکار مناسب برای تعمیر دستگاه است.
+</p>
+
+</div>
+
+
+<div class="services">
+
+<div class="card">
+
+<h3>
+🏠 تعمیر در منزل
+</h3>
+
+<p>
+در صورت امکان، تعمیر دستگاه در محل مشتری انجام می‌شود.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+🔍 عیب‌یابی تخصصی
+</h3>
+
+<p>
+بررسی دقیق مشکل دستگاه قبل از انجام تعمیر.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+🚚 حمل دستگاه
+</h3>
+
+<p>
+در صورت نیاز، هماهنگی برای انتقال دستگاه.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+📞 ارتباط آسان
+</h3>
+
+<p>
+تماس مستقیم و امکان ارتباط از طریق واتساپ.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- برندها -->
+
+<section class="brands">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>
+🏷️ برندهای تحت پوشش
+</h2>
+
+<p>
+تعمیر انواع لوازم خانگی از برندهای مختلف ایرانی،
+آسیایی و بین‌المللی
+</p>
+
+</div>
+
+
+<div class="services">
+
+
+<!-- کره جنوبی -->
+
+<div class="card">
+<h3>Samsung</h3>
+<p>تعمیر لوازم خانگی سامسونگ</p>
+</div>
+
+<div class="card">
+<h3>LG</h3>
+<p>تعمیر لوازم خانگی ال‌جی</p>
+</div>
+
+<div class="card">
+<h3>Daewoo</h3>
+<p>تعمیر لوازم خانگی دوو</p>
+</div>
+
+<div class="card">
+<h3>Winia</h3>
+<p>تعمیر لوازم خانگی وینیا</p>
+</div>
+
+
+<!-- چین -->
+
+<div class="card">
+<h3>Haier</h3>
+<p>تعمیر لوازم خانگی هایر</p>
+</div>
+
+<div class="card">
+<h3>Midea</h3>
+<p>تعمیر لوازم خانگی میدیا</p>
+</div>
+
+<div class="card">
+<h3>Hisense</h3>
+<p>تعمیر لوازم خانگی هایسنس</p>
+</div>
+
+<div class="card">
+<h3>TCL</h3>
+<p>تعمیر لوازم خانگی تی‌سی‌ال</p>
+</div>
+
+<div class="card">
+<h3>Gree</h3>
+<p>تعمیر لوازم خانگی گری</p>
+</div>
+
+<div class="card">
+<h3>Xiaomi</h3>
+<p>تعمیر لوازم خانگی شیائومی</p>
+</div>
+
+<div class="card">
+<h3>Skyworth</h3>
+<p>تعمیر لوازم خانگی اسکای‌ورث</p>
+</div>
+
+<div class="card">
+<h3>Galanz</h3>
+<p>تعمیر لوازم خانگی گالانز</p>
+</div>
+
+<div class="card">
+<h3>Supor</h3>
+<p>تعمیر لوازم خانگی سوپُر</p>
+</div>
+
+<div class="card">
+<h3>Robam</h3>
+<p>تعمیر لوازم خانگی روبام</p>
+</div>
+
+<div class="card">
+<h3>Fotile</h3>
+<p>تعمیر لوازم خانگی فوتایل</p>
+</div>
+
+<div class="card">
+<h3>Joyoung</h3>
+<p>تعمیر لوازم خانگی جویانگ</p>
+</div>
+
+<div class="card">
+<h3>Konka</h3>
+<p>تعمیر لوازم خانگی کونکا</p>
+</div>
+
+<div class="card">
+<h3>Changhong</h3>
+<p>تعمیر لوازم خانگی چانگ‌هونگ</p>
+</div>
+
+
+<!-- ژاپن -->
+
+<div class="card">
+<h3>Panasonic</h3>
+<p>تعمیر لوازم خانگی پاناسونیک</p>
+</div>
+
+<div class="card">
+<h3>Sharp</h3>
+<p>تعمیر لوازم خانگی شارپ</p>
+</div>
+
+<div class="card">
+<h3>Hitachi</h3>
+<p>تعمیر لوازم خانگی هیتاچی</p>
+</div>
+
+<div class="card">
+<h3>Toshiba</h3>
+<p>تعمیر لوازم خانگی توشیبا</p>
+</div>
+
+<div class="card">
+<h3>Mitsubishi Electric</h3>
+<p>تعمیر لوازم خانگی میتسوبیشی</p>
+</div>
+
+<div class="card">
+<h3>Daikin</h3>
+<p>تعمیر لوازم خانگی دایکین</p>
+</div>
+
+<div class="card">
+<h3>Fujitsu</h3>
+<p>تعمیر لوازم خانگی فوجیتسو</p>
+</div>
+
+<div class="card">
+<h3>Iris Ohyama</h3>
+<p>تعمیر لوازم خانگی آیریس اویاما</p>
+</div>
+
+<div class="card">
+<h3>Balmuda</h3>
+<p>تعمیر لوازم خانگی بالموُدا</p>
+</div>
+
+
+<!-- هند -->
+
+<div class="card">
+<h3>Godrej</h3>
+<p>تعمیر لوازم خانگی گادریج</p>
+</div>
+
+<div class="card">
+<h3>IFB</h3>
+<p>تعمیر لوازم خانگی IFB</p>
+</div>
+
+<div class="card">
+<h3>Voltas</h3>
+<p>تعمیر لوازم خانگی ولتاس</p>
+</div>
+
+<div class="card">
+<h3>Onida</h3>
+<p>تعمیر لوازم خانگی اونیدا</p>
+</div>
+
+<div class="card">
+<h3>Havells</h3>
+<p>تعمیر لوازم خانگی هولز</p>
+</div>
+
+
+<!-- ایران -->
+
+<div class="card">
+<h3>Snowa</h3>
+<p>تعمیر لوازم خانگی اسنوا</p>
+</div>
+
+<div class="card">
+<h3>Pakshoma</h3>
+<p>تعمیر لوازم خانگی پاکشوما</p>
+</div>
+
+<div class="card">
+<h3>Arj</h3>
+<p>تعمیر لوازم خانگی ارج</p>
+</div>
+
+<div class="card">
+<h3>Absal</h3>
+<p>تعمیر لوازم خانگی آبسال</p>
+</div>
+
+
+<!-- اروپا و بین‌المللی -->
+
+<div class="card">
+<h3>Bosch</h3>
+<p>تعمیر لوازم خانگی بوش</p>
+</div>
+
+<div class="card">
+<h3>Siemens</h3>
+<p>تعمیر لوازم خانگی زیمنس</p>
+</div>
+
+<div class="card">
+<h3>AEG</h3>
+<p>تعمیر لوازم خانگی AEG</p>
+</div>
+
+<div class="card">
+<h3>Electrolux</h3>
+<p>تعمیر لوازم خانگی الکترولوکس</p>
+</div>
+
+<div class="card">
+<h3>Whirlpool</h3>
+<p>تعمیر لوازم خانگی ویرپول</p>
+</div>
+
+<div class="card">
+<h3>Arçelik</h3>
+<p>تعمیر لوازم خانگی آرچلیک</p>
+</div>
+
+<div class="card">
+<h3>Beko</h3>
+<p>تعمیر لوازم خانگی بکو</p>
+</div>
+
+<div class="card">
+<h3>Grundig</h3>
+<p>تعمیر لوازم خانگی گروندیگ</p>
+</div>
+
+<div class="card">
+<h3>Kenwood</h3>
+<p>تعمیر لوازم خانگی کنوود</p>
+</div>
+
+<div class="card">
+<h3>Candy</h3>
+<p>تعمیر لوازم خانگی کندی</p>
+</div>
+
+<div class="card">
+<h3>Hoover</h3>
+<p>تعمیر لوازم خانگی هوور</p>
+</div>
+
+<div class="card">
+<h3>Indesit</h3>
+<p>تعمیر لوازم خانگی ایندزیت</p>
+</div>
+
+<div class="card">
+<h3>Hotpoint</h3>
+<p>تعمیر لوازم خانگی هات‌پوینت</p>
+</div>
+
+<div class="card">
+<h3>Philips</h3>
+<p>تعمیر لوازم خانگی فیلیپس</p>
+</div>
+
+<div class="card">
+<h3>Russell Hobbs</h3>
+<p>تعمیر لوازم خانگی راسل هابز</p>
+</div>
+
+<div class="card">
+<h3>Delonghi</h3>
+<p>تعمیر لوازم خانگی دلونگی</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section>
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>
+📍 محدوده خدمات
+</h2>
+
+<p>
+ارائه خدمات تعمیر لوازم خانگی در شهرستان دورود و اطراف،
+با امکان هماهنگی برای اعزام تعمیرکار به منزل.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="contact">
+
+<div class="container">
+
+<h2>
+📞 تماس با تعمیرات لوازم خانگی محسن
+</h2>
+
+<p>
+📍 دورود، لرستان
+</p>
+
+<p>
+تلفن:
+<a href="tel:09165453500">
+0916 545 3500
+</a>
+</p>
+
+<p>
+واتساپ:
+<a href="https://wa.me/989165453500">
+ارسال پیام در واتساپ
+</a>
+</p>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>
+© 2026 تعمیرات لوازم خانگی محسن - دورود
+</p>
+
+</footer>
+
+
+<div class="fixed-buttons">
+
+<a class="fixed-call" href="tel:09165453500">
+📞 تماس
+</a>
+
+<a class="fixed-whatsapp" href="https://wa.me/989165453500">
+💬 واتساپ
+</a>
+
+</div>
+
+
+</body>
+  </html>
